@@ -123,7 +123,7 @@ A sample prediction was performed using both models for an apartment with the fo
 ## 👤 Author
 - **Name**: Przemysław Dyjak
 - **Location**: Wroclaw, Poland
-- **Contact**: [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)*
+- **Contact**: [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)
 
 ---
 
