@@ -28,7 +28,7 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 ## Exploratory Data Analysis (EDA)
 
 ### Cleaning and preprocessing:
-- Removed listings with unrealistic values (e.g., size < 10 m², price/m² > 30,000 PLN)
+- Removed listings with unrealistic values in columns `price_per_m2` and `squareMeters` with 68-95-99.7 rule, also known as empirical rule 
 - Handled missing values in floor and apartment type columns
 - Created a new column `price_per_m2` (price divided by square meters)
 
@@ -50,9 +50,9 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 ### 1. **Linear regression**
 - Simple model using numerical predictors: size, rooms, floor, floor count, year built and distance to center
 - Performance:
-  - **R²**: ~0.69
-  - **MAE**: ~92,000 PLN
-  - **RMSE**: ~126,000 PLN
+  - **R²**: 0.73
+  - **MAE**: ~85,000 PLN
+  - **RMSE**: ~117,000 PLN
 - Strengths: interpretable, fast to train
 - Weaknesses: assumes linearity, less effective with complex relationships
 
@@ -60,7 +60,7 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 - Gradient boosting decision tree model
 - Handles non-linear relationships and interactions between features well
 - Performance:
-  - **higher R²** than linear model: ~0.79
+  - **higher R²** than linear model: ~0.81
   - **lower MAE and RMSE**
 - Feature importance reveals that **apartment size**, **build year** and **centre distance** are the top predictors
 
@@ -76,8 +76,8 @@ A sample prediction was performed using both models for an apartment with the fo
 
 | Model              | Predicted Price | MAE (± Error Range) |
 |-------------------|----------------:|---------------------:|
-| Linear Regression | ~750,000 PLN    | ± 92,000 PLN        |
-| XGBoost           | ~809,000 PLN    | ± 70,000 PLN        |
+| Linear Regression | ~748,000 PLN    | ± 85,000 PLN        |
+| XGBoost           | ~780,000 PLN    | ± 71,000 PLN        |
 
 ---
 ## **Models summary**
