@@ -11,17 +11,17 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 ---
 
 ## Dataset
-- **Source**: [Kaggle - Apartment prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
-- **File used**: `apartments_pl_2024_06.csv`
-- **Focus**: this project filters and analyzes only listings located in **Wroclaw**.
+- **Source** - [Kaggle - Apartment prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
+- **File used** - `apartments_pl_2024_06.csv`
+- **Focus** - this project filters and analyzes only listings located in **Wroclaw**.
 
 ### Key features:
-- `squareMeters`: total area of the apartment
-- `rooms`: number of rooms
-- `floor`, `floorCount`: apartment floor and building height
-- `buildYear`: construction year
-- `centreDistance`: distance to city centre (in km)
-- `price`: total price in PLN
+- `squareMeters` - total area of the apartment
+- `rooms` - number of rooms
+- `floor`, `floorCount` - apartment floor and building height
+- `buildYear` - construction year
+- `centreDistance` - distance to city centre (in km)
+- `price` - total price in PLN
 
 ---
 
@@ -53,8 +53,8 @@ These visualizations helped reveal important patterns and dependencies in the Wr
   - **R²**: 0.73
   - **MAE**: ~85,000 PLN
   - **RMSE**: ~117,000 PLN
-- Strengths: interpretable, fast to train
-- Weaknesses: assumes linearity, less effective with complex relationships
+- Strengths - interpretable, fast to train
+- Weaknesses - assumes linearity, less effective with complex relationships
 
 ### 2. **XGBoost regressor**
 - Gradient boosting decision tree model
@@ -157,9 +157,9 @@ This project uses two regression models to predict apartment prices
 ---
 
 ## Author
-- **Name**: Przemysław Dyjak
-- **Location**: Wroclaw, Poland
-- **Contact**: [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)
+- **Name** - Przemysław Dyjak
+- **Location** - Wroclaw, Poland
+- **Contact** - [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)
 
 ---
 
