@@ -50,9 +50,9 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 ### 1. **Linear regression**
 - Simple model using numerical predictors: size, rooms, floor, floor count, year built and distance to center
 - Performance:
-  - **R²**: 0.73
-  - **MAE**: ~85,000 PLN
-  - **RMSE**: ~117,000 PLN
+  - **R²** = 0.73
+  - **MAE** = ~85,000 PLN
+  - **RMSE** = ~117,000 PLN
 - Strengths - interpretable, fast to train
 - Weaknesses - assumes linearity, less effective with complex relationships
 
@@ -60,7 +60,7 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 - Gradient boosting decision tree model
 - Handles non-linear relationships and interactions between features well
 - Performance:
-  - **higher R²** than linear model: ~0.81
+  - **higher R²** than linear model = ~0.81
   - **lower MAE and RMSE**
 - Feature importance reveals that **apartment size**, **build year** and **centre distance** are the top predictors
 
