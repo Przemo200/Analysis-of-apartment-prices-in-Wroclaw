@@ -84,7 +84,7 @@ A sample prediction was performed using both models for an apartment with the fo
 
 This project uses two regression models to predict apartment prices
 
-###**Linear Regression**
+### **Linear Regression**
 - **How it works**  
   Linear regression assumes a **linear relationship** between the target variable (price) and the input features (size, rooms, floor, etc.). It fits a straight line that minimizes the squared error between predicted and actual values.
 
@@ -96,7 +96,7 @@ This project uses two regression models to predict apartment prices
 
 ---
 
-###**XGBoost Regressor**
+### **XGBoost Regressor**
 - **How it works**  
   XGBoost is an **ensemble method** that builds multiple decision trees in sequence. Each tree learns to correct the errors of the previous ones. It can model **complex and non-linear interactions** between features.
 
@@ -111,7 +111,7 @@ This project uses two regression models to predict apartment prices
 
 ---
 
-###**Conclusion**
+### **Conclusion**
 - **XGBoost outperforms linear regression** on this dataset 
 - While linear regression is useful for quick insights and interpretability, XGBoost is **better suited for production-level predictions** due to its flexibility and accuracy
 
