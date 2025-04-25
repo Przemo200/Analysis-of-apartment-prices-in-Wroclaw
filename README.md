@@ -1,7 +1,7 @@
 # 📊 Apartments price analysis & prediction in Wroclaw
 
 ## 🌟 Project overview
-This project aims to analyze apartment prices in Wroclaw, Poland using a real-world dataset. The analysis includes extensive data cleaning, exploratory data analysis (EDA) and the construction of machine learning models to predict property prices. The goal is to offer insights into key price drivers and build tools to help buyers, sellers, investors, and real estate agents make better data-driven decisions.
+This project aims to analyze apartment prices in Wroclaw, Poland using a real-world dataset. The analysis includes extensive data cleaning, exploratory data analysis (EDA) and the construction of machine learning models to predict property prices. The goal is to offer insights into key price drivers and build tools to help buyers, sellers, investors and real estate agents make better data-driven decisions.
 
 ---
 
@@ -13,7 +13,7 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 ## 📦 Dataset
 - **Source**: [Kaggle - Apartment Prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
 - **File used**: `apartments_pl_2024_06.csv`
-- **Focus**: This project filters and analyzes only listings located in **Wroclaw**.
+- **Focus**: this project filters and analyzes only listings located in **Wroclaw**.
 
 ### Key features:
 - `squareMeters`: total area of the apartment
@@ -39,7 +39,7 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 - **Correlation heatmap** to show relationships between numeric variables
 - **Bar charts** showing average price and price per m² grouped by room count
 - **Heatmap** showing average price per m² based on floor and room count
-- **Scatter plot** of apartment size vs price, colored by number of rooms
+- **Scatter plot** of apartment size vs price colored by number of rooms
 
 These visualizations helped reveal important patterns and dependencies in the Wroclaw real estate market.
 
@@ -81,22 +81,24 @@ A sample prediction was performed using both models for an apartment with the fo
 
 ---
 
-## 💡 Key business insights
+## 💡 Key Business Insights
 
 1. **Apartment size is the most influential pricing factor**  
-   Larger apartments consistently command higher total prices, making this a key consideration for both buyers and sellers.
+   Larger apartments consistently command higher total prices, making apartment size the strongest predictor of value.
 
 2. **Newer apartments yield higher values**  
-   Properties built in the last decade are priced noticeably higher, making them more attractive for investment and resale.
+   Properties built in the last decade are significantly more expensive per meter squared, reflecting buyer preference for modern construction, better amenities, and energy efficiency.
 
-3. **Proximity to city center matters, but not the most**  
-   Apartments closer to the center are more expensive, though their impact is less than that of size and build year.
+3. **Proximity to city center shows misleading importance in linear regression**  
+   In linear regression distance to the city center appeared as the most influential feature. However, this result is likely distorted by correlations with other factors (e.g., apartment size, age of buildings).  
+   The XGBoost model, which captures non-linear relationships, correctly highlights that **square meters** are the true dominant driver of apartment price.
 
 4. **Advanced models improve price prediction**  
-   XGBoost significantly outperforms linear models, capturing complex trends in the data.
+   XGBoost significantly outperforms linear regression by capturing complex patterns in the data leading to more accurate and reliable predictions.
 
 5. **Insight-driven strategy benefits all stakeholders**  
-   Buyers can identify good deals, sellers can price accurately, and agents can provide fair market estimates.
+   Buyers can better spot valuable opportunities, sellers can set fair prices and real estate agents can offer more accurate market evaluations, improving decision-making for everyone involved.
+
 
 ---
 
@@ -119,9 +121,9 @@ A sample prediction was performed using both models for an apartment with the fo
 ---
 
 ## 👤 Author
-- **Name**: *Przemysław Dyjak*
+- **Name**: Przemysław Dyjak
 - **Location**: Wroclaw, Poland
-- **Contact**: *[LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)*
+- **Contact**: [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)*
 
 ---
 
