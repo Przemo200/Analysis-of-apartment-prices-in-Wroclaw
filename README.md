@@ -80,6 +80,42 @@ A sample prediction was performed using both models for an apartment with the fo
 | XGBoost           | ~809,000 PLN    | ± 70,000 PLN        |
 
 ---
+## **Models summary**
+
+This project uses two regression models to predict apartment prices
+
+###**Linear Regression**
+- **How it works**  
+  Linear regression assumes a **linear relationship** between the target variable (price) and the input features (size, rooms, floor, etc.). It fits a straight line that minimizes the squared error between predicted and actual values.
+
+- **Why it was chosen**  
+  It's a simple and interpretable baseline model that shows the **direct influence of each variable**. It's fast to train and provides useful insights into linear relationships.
+
+- **Limitations**  
+  Real estate prices often follow **non-linear patterns**. Linear models can be misled by **correlated variables** (multicollinearity). In this case, it incorrectly identified distance to city center as the most important feature, likely due to its correlation with other factors.
+
+---
+
+###**XGBoost Regressor**
+- **How it works**  
+  XGBoost is an **ensemble method** that builds multiple decision trees in sequence. Each tree learns to correct the errors of the previous ones. It can model **complex and non-linear interactions** between features.
+
+- **Why it was chosen**  
+  XGBoost is widely used for **structured data** and consistently delivers top results in regression and classification tasks. It handles **missing values**, **non-linearity** and **feature interactions** effectively.
+
+- **Strengths**  
+  - Models complex patterns  
+  - More robust to outliers  
+  - Provides feature importance metrics  
+  - **Higher accuracy** than linear models
+
+---
+
+###**Conclusion**
+- **XGBoost outperforms linear regression** on this dataset 
+- While linear regression is useful for quick insights and interpretability, XGBoost is **better suited for production-level predictions** due to its flexibility and accuracy
+
+---
 
 ## Key business insights
 
