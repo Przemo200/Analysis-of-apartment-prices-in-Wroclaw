@@ -1,16 +1,16 @@
-# 📊 Apartments price analysis & prediction in Wroclaw
+# Apartments price analysis & prediction in Wroclaw
 
-## 🌟 Project overview
+## Project overview
 This project aims to analyze apartment prices in Wroclaw, Poland using a real-world dataset. The analysis includes extensive data cleaning, exploratory data analysis (EDA) and the construction of machine learning models to predict property prices. The goal is to offer insights into key price drivers and build tools to help buyers, sellers, investors and real estate agents make better data-driven decisions.
 
 ---
 
-## 🏩 Why Wroclaw?
+## Why Wroclaw?
 Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic economy, rich academic environment and increasing population. As a student currently living and renting in Wroclaw, the local housing market is both relevant and insightful to explore. The city's real estate market reflects trends found in many urban centers in Central Europe, making it a valuable case study.
 
 ---
 
-## 📦 Dataset
+## Dataset
 - **Source**: [Kaggle - Apartment Prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
 - **File used**: `apartments_pl_2024_06.csv`
 - **Focus**: this project filters and analyzes only listings located in **Wroclaw**.
@@ -25,7 +25,7 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### Cleaning and preprocessing:
 - Removed listings with unrealistic values (e.g., size < 10 m², price/m² > 30,000 PLN)
@@ -45,7 +45,7 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 
 ---
 
-## 🤖 Predictive modeling
+## Predictive modeling
 
 ### 1. **Linear regression**
 - Simple model using numerical predictors: size, rooms, floor, floor count, year built and distance to center
@@ -66,7 +66,7 @@ These visualizations helped reveal important patterns and dependencies in the Wr
 
 ---
 
-## 🏡 Sample price prediction
+## Sample price prediction
 A sample prediction was performed using both models for an apartment with the following attributes:
 - 60 m²
 - 3 rooms
@@ -81,7 +81,7 @@ A sample prediction was performed using both models for an apartment with the fo
 
 ---
 
-## 💡 Key Business Insights
+## Key business insights
 
 1. **Apartment size is the most influential pricing factor**  
    Larger apartments consistently command higher total prices, making apartment size the strongest predictor of value.
@@ -102,7 +102,7 @@ A sample prediction was performed using both models for an apartment with the fo
 
 ---
 
-## 🛠️ Tools & technologies used
+## Tools & technologies used
 - **Python 3**
 - **Pandas**, **NumPy** for data manipulation
 - **Matplotlib**, **Seaborn** for visualization
@@ -112,7 +112,7 @@ A sample prediction was performed using both models for an apartment with the fo
 
 ---
 
-## 🚀 Future work
+## Future work
 - Include categorical features such as apartment type and neighborhood (one-hot encoding)
 - Incorporate geospatial analysis (e.g. coordinates, district boundaries)
 - Expand model with more data sources (e.g. building materials, amenities)
@@ -120,12 +120,12 @@ A sample prediction was performed using both models for an apartment with the fo
 
 ---
 
-## 👤 Author
+## Author
 - **Name**: Przemysław Dyjak
 - **Location**: Wroclaw, Poland
 - **Contact**: [LinkedIn](https://www.linkedin.com/in/przemys%C5%82aw-dyjak-666a11356/)
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
