@@ -11,7 +11,7 @@ Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic 
 ---
 
 ## Dataset
-- **Source**: [Kaggle - Apartment Prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
+- **Source**: [Kaggle - Apartment prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)
 - **File used**: `apartments_pl_2024_06.csv`
 - **Focus**: this project filters and analyzes only listings located in **Wroclaw**.
 
