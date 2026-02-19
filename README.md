@@ -4,6 +4,34 @@
 This project aims to analyze apartment prices in Wroclaw, Poland using a real-world dataset. The analysis includes extensive data cleaning, exploratory data analysis (EDA) and the construction of machine learning models to predict property prices. The goal is to offer insights into key price drivers and build tools to help buyers, sellers, investors and real estate agents make better data-driven decisions.
 
 ---
+## Dashboard - a few of plots from **.ipynb** file
+<p align="center">
+  <img src="_images/1_.png" width="900" alt="Distributions 1">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="_images/3_.png" width="900" alt="Distributions 2">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="_images/4_.png" width="900" alt="Distributions 3">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="_images/7_.png" width="900" alt="Distributions 4">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="_images/10_.png" width="520" alt="Quality proportion">
+</p>
 
 ## Why Wroclaw?
 Wroclaw is a rapidly growing city in southwestern Poland, known for its dynamic economy, rich academic environment and increasing population. As a student currently living and renting in Wroclaw, the local housing market is both relevant and insightful to explore. The city's real estate market reflects trends found in many urban centers in Central Europe, making it a valuable case study.
