@@ -30,7 +30,7 @@ This project aims to analyze apartment prices in Wroclaw, Poland using a real-wo
 <br>
 
 <p align="center">
-  <img src="_images/10_.png" width="520" alt="5">
+  <img src="_images/10_.png" width="900" alt="5">
 </p>
 
 ## Why Wroclaw?
