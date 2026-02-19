@@ -4,7 +4,7 @@
 This project aims to analyze apartment prices in Wroclaw, Poland using a real-world dataset. The analysis includes extensive data cleaning, exploratory data analysis (EDA) and the construction of machine learning models to predict property prices. The goal is to offer insights into key price drivers and build tools to help buyers, sellers, investors and real estate agents make better data-driven decisions.
 
 ---
-## Dashboard - a few of plots from **.ipynb** file
+## Dashboard - a few plots from **.ipynb** file
 <p align="center">
   <img src="_images/1_.png" width="900" alt="1">
 </p>
