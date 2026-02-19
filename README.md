@@ -6,31 +6,31 @@ This project aims to analyze apartment prices in Wroclaw, Poland using a real-wo
 ---
 ## Dashboard - a few of plots from **.ipynb** file
 <p align="center">
-  <img src="_images/1_.png" width="900" alt="Distributions 1">
+  <img src="_images/1_.png" width="900" alt="1">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="_images/3_.png" width="900" alt="Distributions 2">
+  <img src="_images/3_.png" width="900" alt="2">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="_images/4_.png" width="900" alt="Distributions 3">
+  <img src="_images/4_.png" width="900" alt="3">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="_images/7_.png" width="900" alt="Distributions 4">
+  <img src="_images/7_.png" width="900" alt="4">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="_images/10_.png" width="520" alt="Quality proportion">
+  <img src="_images/10_.png" width="520" alt="5">
 </p>
 
 ## Why Wroclaw?
